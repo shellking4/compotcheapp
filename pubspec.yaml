@@ -1,0 +1,81 @@
+name: compotcheapp
+description: A new Flutter project.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_sequence_animation: "^3.0.0"
+  animated_text_kit: ^3.0.1
+  animations: ^1.1.2
+  build_verify: ^1.1.0
+  flutter_datetime_picker: ^1.2.8
+  cupertino_icons: ^1.0.0
+  route_transitions: ^1.0.2
+  mdi: ^3.0.0
+  path_provider: ^2.0.1
+  moor: ^4.3.0
+  flappy_search_bar: ^1.4.1
+  easy_rich_text: ^0.5.4
+  need_resume: ^1.0.5+1
+  dio: ^4.0.0
+  http: ^0.13.3
+  change_app_package_name: ^1.0.0
+  flutter_vector_icons: ^1.0.0
+  flutter_icons: ^1.1.0
+  font_awesome_flutter: 9.0.0
+  floor_generator: ^1.1.0
+  sqlite3_flutter_libs: ^0.4.3
+  path: ^1.8.0
+  persistent_bottom_nav_bar: ^4.0.2
+  
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  moor_generator: ^4.3.0
+  build_runner: ^2.0.3
+
+flutter:
+  uses-material-design: true
+  assets:
+    - images/
+
+  fonts:
+    - family: Pacifico
+      fonts:
+        - asset: fonts/Pacifico/Pacifico-Regular.ttf
+
+    - family: Arvo
+      fonts:
+        - asset: fonts/Arvo/Arvo-Italic.ttf
+
+    - family: CodaCaption
+      fonts:
+        - asset: fonts/CodaCaption/CodaCaption-ExtraBold.ttf
+
+    - family: Anton
+      fonts:
+        - asset: fonts/Anton/Anton-Regular.ttf
+
+    - family: PermanentMarker
+      fonts:
+        - asset: fonts/PermanentMarker/PermanentMarker-Regular.ttf
+
+    - family: Lobster
+      fonts:
+        - asset: fonts/Lobster/Lobster-Regular.ttf
+
+    - family: Prata
+      fonts:
+        - asset: fonts/Prata/Prata-Regular.ttf
+
+    - family: Kiwi
+      fonts:
+        - asset: fonts/Kiwi_Maru/KiwiMaru-Regular.ttf
+flutter_intl:
+  enabled: true
